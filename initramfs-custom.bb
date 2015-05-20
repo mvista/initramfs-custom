@@ -3,7 +3,7 @@ DESCRIPTION = "Small image capable of booting a device. The kernel includes \
 the Minimal RAM-based Initial Root Filesystem (initramfs), which finds the \
 first “init” program more efficiently."
 
-IMAGE_INSTALL = "packagegroup-core-boot kmod initramfs-module-block initramfs-module-loop initramfs-module-nfs initramfs-module-custom kernel-module-hello"
+IMAGE_INSTALL = "packagegroup-core-boot kmod initramfs-module-block initramfs-module-loop initramfs-module-nfs initramfs-module-custom hello-mod"
 
 PACKAGE_REMOVE = "kernel-image-* update-modules"
 IMAGE_FEATURES = ""
